@@ -1,0 +1,27 @@
+{
+  "name": "travelblogfrontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@portabletext/react": "^1.0.6",
+    "@sanity/client": "^3.3.2",
+    "@sanity/image-url": "^1.0.1",
+    "groq": "^2.29.3",
+    "mapbox-gl": "^2.8.2",
+    "next": "12.1.6",
+    "next-sanity": "^0.5.2",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "babel-install": "2.1.0",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
